@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:background="@drawable/blue_back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/length"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/length_icon"
+                android:onClick="length" />
+
+            <Button
+                android:id="@+id/weight"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/weight"
+                android:onClick="weight" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:text="   LENGTH                   WEIGHT"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/area"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/area"
+                android:onClick="area" />
+
+            <Button
+                android:id="@+id/volume"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/volume"
+                android:onClick="volume" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:text="   AREA                       VOLUME"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/speed"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/speed"
+                android:onClick="speed" />
+
+            <Button
+                android:id="@+id/temprature"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/temprature"
+                android:onClick="temprature" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:text="  SPEED                   TEMPERATURE"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>

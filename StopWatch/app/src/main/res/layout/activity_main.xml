@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chrmtr"
+        android:textColor="#D29DDC"
+        android:format="00:00:00"
+        android:textSize="60sp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp"
+    >
+    <Button
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/round_shape"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="start"
+        android:text="@string/start"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/round_shape"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="start"
+        android:text="@string/stop"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hold"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/round_shape"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="start"
+        android:text="@string/hold"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+</LinearLayout>
+
+
+
+</LinearLayout>
